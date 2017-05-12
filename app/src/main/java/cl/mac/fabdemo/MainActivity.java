@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (main.getRotation() != 0){  //si la rotacion ya ocurrio, la escondemos
+                if (main.getRotation() != 0){  //si la rotacion ya ocurrio, la escondemo
                     hideFabs();
                 }else{
                     showFabs();
